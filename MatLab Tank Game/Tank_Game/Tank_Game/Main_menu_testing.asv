@@ -1,0 +1,8 @@
+clc;
+clear;
+
+main_menu = menu('Select an option', 'Play Game', 'Instructions','Exit Game') 
+
+if main_menu == 1
+   %Run the main game function
+   
